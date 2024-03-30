@@ -198,7 +198,7 @@ export default class Morpion {
 
       if (fill == false) {
         this.gameOver.play()
-        document.querySelector(".win-display").innerText = `Vos gros crânes personne n'a gagné !`
+        document.querySelector(".win-display").innerText = `Match nul personne n'a gagné !`
       document.querySelector("#grid").classList.add("won")
         document.getElementById("replay").style.display = "block"
         document.getElementById("reset").style.display = "block"
